@@ -1,32 +1,19 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# Arduino build files
+*.hex
+*.elf
 *.o
-*.obj
+*.bin
+*.d
+*.map
+*.eep
 
-# Precompiled Headers
-*.gch
-*.pch
+# Mac & Windows system files
+.DS_Store
+Thumbs.db
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Arduino IDE metadata
+*.log
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# VS Code/Arduino IDE config (optional)
+.vscode/
+.idea/
